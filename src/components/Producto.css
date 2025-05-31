@@ -1,0 +1,9 @@
+.cardProducto {
+    width: 30%;
+    height: auto;
+    margin: 2vh;
+    background-color: rgb(96, 123, 96);
+    border-radius: 15px;
+    text-align: center;
+    display: inline-block;
+}

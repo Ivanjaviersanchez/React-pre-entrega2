@@ -3,19 +3,3 @@
     gap: 15px;
     flex-wrap: wrap;
 }
-
-.card {
-    width: 15%;
-    height: auto;
-    background-color: rgb(96, 123, 96);
-    border-radius: 15px;
-    text-align: center;
-}
-
-.cardDetalleProducto{
-    width: 100%;
-    height: auto;
-    background-color: rgb(96, 123, 96);
-    border-radius: 15px;
-    text-align: center;
-}

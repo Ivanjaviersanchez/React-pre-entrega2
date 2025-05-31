@@ -1,5 +1,6 @@
 import { products } from "../products";
 import { useParams } from "react-router-dom";
+import "./DetalleProducto.css"
 
 /*  MUESTRA LOS DETALLES DE CADA PRODUCTO   */
 
