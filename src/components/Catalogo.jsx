@@ -1,8 +1,8 @@
 import { useEffect,useState } from "react"
 import { products } from "../products"
-
+import "./Catalogo.css"
 import ProductoList from "./ProductoList"
-import "./styles.css"
+
 
 function Catalogo() {
 
@@ -20,7 +20,8 @@ function Catalogo() {
   },[])
 
   return (
-    <div className="container">
+    <div className="catalogoStyles">
+      <h2>Catalogo de productos</h2>
       {productos.length === 0 ? (
         <p>Cargando productos...</p>
       ) : (
