@@ -1,8 +1,10 @@
 .cardDetalleProducto {
     width: 50%;
     height: auto;
+    padding-bottom: 2vh;
     background-color: rgb(96, 123, 96);
     border-radius: 15px;
     text-align: center;
     display: inline-block;
+    margin-top: 5vh;
 }

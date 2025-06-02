@@ -1,10 +1,16 @@
 import { Link , Outlet } from "react-router-dom"
 import "./Layout.css"
+import logo from "../assets/logo.png"
+import CartWidget from "./CartWidget"
 
 function Layout() {
   return (
-    <>
-        <nav className="navStyles">
+    <div>
+
+        <nav className="NavStyles">
+
+            <a className="LogoStyles" href="#"><img className="LogoImgStyles" src={logo} alt="logo"/><p>TecnoBox - Soluciones Informáticas</p></a>
+
             <ul>
                 <li>
                     <Link to={"/"}>Home</Link>
@@ -13,15 +19,18 @@ function Layout() {
                     <Link to={"/nosotros"}>Nosotros</Link>
                 </li>
                 <li>
-                    <Link to={"/catalogo"}>Catalogo</Link>
+                    <Link to={"/catalogo"}>Catálogo</Link>
                 </li>
                 <li>
                     <Link to={"/contacto"}>Contacto</Link>
                 </li>
             </ul>
+
+            <CartWidget/>
+
         </nav>
         <Outlet/>
-    </>
+    </div>
   )
 }
 

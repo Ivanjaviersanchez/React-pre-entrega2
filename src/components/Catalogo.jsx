@@ -22,6 +22,7 @@ function Catalogo() {
   return (
     <div className="catalogoStyles">
       <h2>Catalogo de productos</h2>
+      
       {productos.length === 0 ? (
         <p>Cargando productos...</p>
       ) : (

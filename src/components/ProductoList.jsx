@@ -1,6 +1,6 @@
 import { useState } from "react"
 import Producto from "./Producto"
-import { products } from "../products";
+import "./ProductoList.css"
 
 const categories = {
    ACCESORIOS: "Accesorios informaticos",
@@ -18,7 +18,8 @@ function ProductoList({productos}) {
 
   return (
     <div>
-        <div>
+        <div className="filtroCategoriasStyles">
+            <p>Busca por categorias</p>
             <button onClick={() => setSelectedCategory(categories.ACCESORIOS)}>
                 Accesorios informaticos
             </button>
