@@ -6,7 +6,6 @@ import CartWidget from "./CartWidget"
 function Layout() {
   return (
     <div>
-
         <nav className="NavStyles">
 
             <a className="LogoStyles" href="#"><img className="LogoImgStyles" src={logo} alt="logo"/><p>TecnoBox - Soluciones Informáticas</p></a>

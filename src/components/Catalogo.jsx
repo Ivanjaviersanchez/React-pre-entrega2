@@ -29,12 +29,6 @@ function Catalogo() {
         <ProductoList productos={productos} />
       )}
     </div>
-
-    /* <div id="container">
-      {products.map(prod=>(
-        <Producto key={prod.id}{...prod}/>
-      ))}
-    </div> */
   )
 }
 

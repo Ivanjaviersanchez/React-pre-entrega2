@@ -4,8 +4,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;  
-    color: rgb(198, 247, 186);
+    color: rgb(96, 123, 96);
     justify-content: center; 
+
 }
 .LogoStyles {
     width: 20%;
@@ -18,8 +19,8 @@
     width: 30%;
     height: 8vh;
     padding-top: 0;
-    
 }
+
 
 
 
